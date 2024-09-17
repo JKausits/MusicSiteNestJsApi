@@ -10,6 +10,7 @@ async function bootstrap() {
     .setTitle('Music Site API')
     .setDescription('API for Music Site')
     .setVersion('1.0')
+    .addBearerAuth()
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
