@@ -1,0 +1,5 @@
+init prisma
+-- npx prisma init
+
+prisma migration
+-- npx prisma migrate dev --name init
