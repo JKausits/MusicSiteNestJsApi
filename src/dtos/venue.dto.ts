@@ -7,3 +7,8 @@ export class CreateVenueDto {
   @MaxLength(255)
   name: string;
 }
+
+export class VenueDto {
+  id: number;
+  name: string;
+}
